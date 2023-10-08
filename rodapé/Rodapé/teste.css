@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,900;1,100;1,200;1,300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo_img {
+    width: 85%;
+    position: relative;
+    left: 16px;
+}
+
+.logo_img img {
+    width: 100%;
+}
+
+
+.logo_text {
+    text-decoration: none;
+    color: gray;
+    font-weight: 600;
+    font-size: 1.25em;
+}
+
+.links_nav {
+    display: flex;
+    gap: 72px;
+    padding: 12px;
+    position: relative;
+    bottom: 9px;
+}
+
+.link_nav {
+    display: block;
+    width: fit-content;
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+.barra {
+    display: block;
+    position: absolute;
+    height: 3px;
+    background-color: #21457E;
+    width: 0;
+}
+
+.link_nav:nth-child(2) .barra {
+    background-color: red;
+}
+
+.link_nav:nth-child(3) .barra {
+    background-color: green;
+}
+
+
+.link_nav:nth-child(4) .barra {
+    background-color: yellow;
+}
+
+
+.link_nav:nth-child(5) .barra {
+    background-color: orange;
+}
+
+.link_nav:nth-child(6) .barra {
+    background-color: purple;
+}
+
+
+.link_nav:hover>.barra {
+    animation: barrinha 0.2s ease-in both;
+}
+
+@keyframes barrinha {
+    from {
+        width: 0vw;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.icons {
+    width: 32px;
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+footer {
+    width: 100%;
+    color: black;
+}
+
+#footer_content{
+    background-color: #9d9c9e44;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+
+}
+
+
+#footer_logo h1 {
+    margin-bottom: 0.75rem;
+}
+
+#footer_logo p {
+    font-size: 20px;
+}
+
+#footer_rede-social{
+    display: flex;
+    gap: 1.3rem;
+    margin-top: 0.6rem;
+
+}
+
+.icons {
+    width: 35px;
+}
+
+.icons:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.4);
+}
+
+.icons_2 {
+    width: 30px;
+}
+
+.footer_info img {
+    float: left;
+    margin-right: 15px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.footer_info p {
+    padding: 2px;
+    line-height: 24px;
+    vertical-align: middle;
+    margin: 0;
+    font-size: 12px;
+    
+}
+
+
+.footer_info span {
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 2px;
+    font-weight: bold;
+    padding-bottom: 2px;
+
+}
+
+.qrcode img {
+    width: 120px; 
+    margin-left: 130px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.qrcode p {
+    margin-left: 135px;
+}
+
+
+.da {
+    position: relative;
+    top: 3.2px;
+}
+ 
