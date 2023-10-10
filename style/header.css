@@ -1,0 +1,73 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 1px 10px rgb(150, 150, 150);
+}
+
+.logo_nav {
+    width: 250px;
+}
+
+.logo_nav img {
+    width: inherit;
+}
+
+.links_nav {
+    display: flex;
+    gap: 32px;
+}
+
+.link_nav {
+    display: block;
+    width: fit-content;
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.barra {
+    display: block;
+    position: absolute;
+    height: 3px;
+    background-color: #21457E;
+    width: 0;
+}
+
+.link_nav:nth-child(2) .barra {
+    background-color: red;
+}
+
+.link_nav:nth-child(3) .barra {
+    background-color: green;
+}
+
+
+.link_nav:nth-child(4) .barra {
+    background-color: yellow;
+}
+
+
+.link_nav:nth-child(5) .barra {
+    background-color: orange;
+}
+
+.link_nav:nth-child(6) .barra {
+    background-color: purple;
+}
+
+
+.link_nav:hover>.barra {
+    animation: barrinha 0.2s ease-in both;
+}   
+
+@keyframes barrinha {
+    from {
+        width: 0vw;
+    }
+
+    to {
+        width: 100%;
+    }
+}

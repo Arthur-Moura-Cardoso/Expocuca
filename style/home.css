@@ -1,0 +1,100 @@
+.secao_inicio {
+height: 80vh;
+display: flex;
+align-items: center;
+justify-content: space-around;
+font-size: 24px;
+}
+
+.secao_inicio-texto {
+width: 350px;
+text-align: initial;
+font-size: 1.75em;
+font-weight: 500;
+color: rgba(0, 0, 0, 0.856);
+margin-bottom: 36px;
+}
+
+.secao_inicio-botao {
+color: white;
+text-decoration: none;
+padding: 15px 64px;
+font-size: 0.6em;
+border-radius: 25px;
+font-weight: 500;
+background-color: #274A82;
+}
+
+.secao_inicio-img {
+width: 500px;
+}
+
+.serie {
+    background-color: black;
+    color: white;
+    font-weight: 200;
+    font-size: 3em;
+    padding: 1em;
+}
+
+.serie h1 {
+    font-weight: 600;
+    margin: 0px 0 16px 7vw;
+}
+
+.flexbox {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    gap: 24px;
+}
+
+.flexbox img {
+    padding: 3px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.titulo_conheca {
+    text-align: center;
+    font-size: 3rem;
+    color: #00004d;
+    padding: 2rem;
+    margin: 2rem 0;
+    font-weight: bold;
+}
+
+.sobre_nos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3.5rem;
+    font-size: 4.5rem;
+    margin-left: 20px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2.5rem;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+.material-symbols-outlined {
+    color: #ff471a;
+    font-size: 2em;
+}
+
+.icons p {
+    color: #00004d;
+    font-size: 50px;
+    font-weight: bold
+}
+
+.icons h1 {
+    font-size: 17px;
+    color: #8c8c8c;
+}

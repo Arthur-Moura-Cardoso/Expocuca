@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .number {
+            font-size: 5em;
+        }
+    </style>
+</head>
+<body>
+
+    <span class="number" data-from="0" data-to="30"></span>
+
+</body>
+<script>
+    const number = document.querySelector(".number")
+    numeroAlvo = number.dataset.to
+    numeroAtual = number.dataset.from
+
+    function adicionarNumero() {
+        if(numeroAtual <= numeroAlvo){
+            number.innerHTML = numeroAtual
+            numeroAtual++
+        }
+    }
+
+    setInterval(() => {
+        adicionarNumero()
+    }, 150);
+</script>
+</html>
