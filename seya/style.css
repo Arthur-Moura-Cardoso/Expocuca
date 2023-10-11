@@ -1,0 +1,46 @@
+body {
+    background: black;
+    color: white;
+    overflow-x: hidden;
+}
+img {
+    width: 50%;
+}
+
+p img {
+    margin: auto;
+    display: block;
+    width: 200px;
+}
+
+.secao {
+    min-height: 105vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 8rem;
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-100%);
+    transition: all 1.5s;
+}
+
+.secao:nth-child(even) {
+    transform: translateX(100%);
+}
+
+.secao.ativo {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 1.5s;
+}
+
+.secao.ativo img {
+    animation: rodar .8s linear;
+}
+
+@keyframes rodar {
+    to{transform: rotate(1turn);}
+}
