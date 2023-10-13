@@ -1,4 +1,5 @@
 const info_etec = document.querySelectorAll('.number')
+const secao_dados = document.querySelector('.sobre_nos')
 var numero_atual = []
 var numero_alvo = []
 
@@ -19,13 +20,21 @@ function adicionarNumero() {
         
         
         if(numero_alvo[j] > 100){
-            numero_atual[j] = parseInt(numero_atual[j]) + 10
+            numero_atual[j] = parseInt(numero_atual[j]) + 20
         }else {
             numero_atual[j]++
         }   
     }
 }
 
-setInterval(() => {
-    adicionarNumero()
-}, 100)
+const myObserver = new IntersectionObserver ((event) => {
+    event.forEach((entry) => { 
+        if(entry.isIntersecting){
+            setInterval(() => {
+                adicionarNumero()
+            }, 100)
+        }
+    })
+})
+
+myObserver.observe(secao_dados)
