@@ -2,7 +2,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    box-shadow: 0px 1px 10px rgb(150, 150, 150);
+    box-shadow: 0px 1px 10px rgb(0, 0,0);
+    z-index: 100;
+    border-right: 2px solid #000;
 }
 
 .logo_nav {
@@ -22,7 +24,7 @@ nav {
     display: block;
     width: fit-content;
     position: relative;
-    color: black;
+    color: #000;
     text-decoration: none;
     font-size: 1.4rem;
 }

@@ -6,4 +6,21 @@ html,
 body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: block;
+    width: 15px;
+    background: black;
+}
+
+::-webkit-scrollbar-button {
+    background: black;
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    display: block;
+    background: white;
 }

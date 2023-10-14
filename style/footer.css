@@ -1,14 +1,11 @@
 footer {
-    width: 100vw;
-    color: black;
-}
-
-#footer_content {
+    color: #000;
     background-color: #9d9c9e44;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 3rem 3.5rem;
+    padding: 3em 0;
+    border-right: 2px solid #000;
 }
 
 #footer_logo h1 {
@@ -67,11 +64,11 @@ footer {
 }
 
 .info li span {
-    color: black;
+    color: #000;
 }
 
 .info a {
-    color: black;
+    color: #000;
     text-decoration: none;
 }
 
@@ -95,7 +92,7 @@ footer {
 }
 
 .qiclinks li a {
-    color: black;
+    color: #000;
     text-decoration: none;
     margin-bottom: 10px;
     display: inline-block;
@@ -103,7 +100,7 @@ footer {
 }
 
 .copyrighttext {
-    width: 100%;
+    border-right: 2px solid #000;
     background-color: #5d628a44;
     padding: 6px;
     text-align: center;
