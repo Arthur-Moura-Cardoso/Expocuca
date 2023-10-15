@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 2;
 }
 
 .video_box {
@@ -23,22 +24,32 @@
 }
 
 .secao_paragrafo-text {
-font-size: 3em;
-font-weight: 500;
-color: #fff;
-margin: 0.25em;
+    font-size: 3em;
+    font-weight: 500;
+    color: #fff;
+    margin: 0.25em;
 }
 
 .secao_inicio-botao button {
     color: white;
     text-decoration: none;
     padding: 15px 64px;
-    font-size: 0.75em;
+    font-size: 1em;
     border-radius: 25px;
-    font-weight: 500;
+    font-weight: 600;
     background-color: #274A82;
     border: none;
     cursor: pointer;
+    z-index: 100;
+    transition: background .2s ease-in-out;
+}
+
+.secao_inicio-botao button:hover {
+    background: #233e69;
+}
+
+.secao_inicio-botao button:active {
+    transform: scale(0.95);
 }
 
 .img-background {

@@ -37,6 +37,14 @@ footer {
     width: 25px;
 }
 
+.github {
+    filter: brightness(0);
+}
+
+.github:hover {
+    filter: brightness(2);
+}
+
 .sec_contact {
     margin-top: 15px;
 }
@@ -99,18 +107,6 @@ footer {
 
 }
 
-.copyrighttext {
-    border-right: 2px solid #000;
-    background-color: #5d628a44;
-    padding: 6px;
-    text-align: center;
-}
-
-.copyrighttext p {
-    font-size: 12px;
-    text-align: center;
-}
-
 .dev {
     width: fit-content;
     position: relative;
@@ -137,4 +133,16 @@ footer {
     to {
         width: 100%;
     }
+}
+
+.copyrighttext {
+    border-right: 2px solid #000;
+    background-color: #5d628a44;
+    padding: 6px;
+    text-align: center;
+}
+
+.copyrighttext p {
+    font-size: 12px;
+    text-align: center;
 }
