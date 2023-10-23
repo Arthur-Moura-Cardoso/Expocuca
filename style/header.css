@@ -33,30 +33,31 @@ nav {
     display: block;
     position: absolute;
     height: 3px;
-    background-color: #21457E;
+    background-color: #0A2647;
     width: 0;
+    animation: barrinhaReverse 0.2s ease-in both;
 }
 
 .link_nav:nth-child(2) .barra {
-    background-color: red;
+    background-color: #2a5079;
 }
 
 .link_nav:nth-child(3) .barra {
-    background-color: green;
+    background-color: #406492;
 }
 
 
 .link_nav:nth-child(4) .barra {
-    background-color: yellow;
+    background-color: #4879a3;
 }
 
 
 .link_nav:nth-child(5) .barra {
-    background-color: orange;
+    background-color: #6085a5;
 }
 
 .link_nav:nth-child(6) .barra {
-    background-color: purple;
+    background-color: #698caa;
 }
 
 
@@ -71,5 +72,15 @@ nav {
 
     to {
         width: 100%;
+    }
+}
+
+@keyframes barrinhaReverse {
+    from {
+        width: 100%;
+    }
+
+    to {
+        width: 0vw;
     }
 }

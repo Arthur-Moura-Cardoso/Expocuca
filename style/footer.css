@@ -1,6 +1,6 @@
 footer {
     color: #000;
-    background-color: #9d9c9e44;
+    background-color: #b9ceeba4;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -118,6 +118,8 @@ footer {
     height: 3px;
     background-color: #21457E;
     width: 55px;
+    animation: barrinha-footerReverse
+     0.2s ease-in both;
 }
 
 .dev:hover>.barra-footer {
@@ -135,9 +137,19 @@ footer {
     }
 }
 
+@keyframes barrinha-footerReverse {
+    from {
+        width: 100%;
+    }
+
+    to {
+        width: 55px;
+    }
+}
+
 .copyrighttext {
     border-right: 2px solid #000;
-    background-color: #5d628a44;
+    background-color: #87a8d098;
     padding: 6px;
     text-align: center;
 }

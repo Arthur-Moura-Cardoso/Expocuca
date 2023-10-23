@@ -1,0 +1,207 @@
+main {
+    border-right: 2px solid black;
+}
+
+i {
+    font-style: italic;
+}
+
+.linha {
+    width: 0;
+    height: 2px;
+    background: #050555;
+    border: none;
+    margin: 2em auto 1em;
+    transition: width 0.4s ease-in-out;
+}
+
+.titulo-secao {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 700;
+    padding: 3em 0 1em 0;
+    color: #050555;
+}
+
+.secao-perfil {
+    display: flex;
+    justify-content: center;
+    padding: 3em 3em 2em 3em;
+    gap: 16px;
+}
+
+.box-perfil {
+    width: 700px;
+}
+
+.box-gray {
+    background: #D2E9E9;
+    padding: 1.5em;
+    border-radius: 4px;
+}
+
+.flexbox {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.text,
+.text p {
+    line-height: 24px;
+    color: #050555;
+}
+
+.text-box_perfil h3,
+.artigo-emprego_text h2 {
+    color: #1760b3;
+    line-height: 36px;
+    font-size: 2em;
+    font-weight: 700;
+    margin: 1em 0;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.perfil-img {
+    width: 50%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-center p {
+    width: 90%;
+    margin: auto;
+}
+
+.text-areas {
+    width: 80%;
+    margin: auto;
+    font-size: 1.25em;
+    line-height: 28px;
+    padding: 3em 0 0 ;
+}
+
+.secao-areas_grid {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    justify-content: center;
+    gap: 16px 6em;
+    padding: 5em 0 6em 0;
+}
+
+.secao-areas_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 24px;
+    border-radius: 16px;
+    background: #C4DFDF;
+    text-decoration: none;
+    transition: background 0.4s ease-in-out;
+}
+
+.secao-areas_button:hover {
+    background: #9eb6b6;
+}
+
+.secao-areas_button:active {
+    transform: scale(0.95);
+}
+
+.text-button_areas {
+    width: fit-content;
+    position: relative;
+    font-size: 1.25em;
+    font-weight: 600;
+    color: #050555;
+}
+
+.barra-secao_areas {
+    display: block;
+    position: absolute;
+    margin-top: 2px;
+    height: 3px;
+    background-color: #050555;
+    width: 0;
+    animation: barrinhaReverse 0.4s ease-in both;
+}
+
+.secao-areas_button:hover .barra-secao_areas {
+    animation: barrinha 0.4s ease-in both;
+}
+
+.secao-empregos {
+    padding-bottom: 5em;
+}
+
+.artigo-emprego {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5em 0;
+}
+
+.artigo-emprego:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.artigo-emprego_text {
+    width: 40%;
+}
+
+.artigo-emprego_text h2{
+    text-align: center;
+    font-size: 2.25em;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 8px;
+}
+
+.artigo-emprego p {
+    line-height: 28px;
+    color: #050555;
+    font-size: 1.25em;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    transform: translateY(1.5em);
+}
+
+.img-container img {
+    width: 450px;
+    height: fit-content;
+}
+
+.img-container a {
+    font-size: 1.1em;
+    color: #050555;
+    font-weight: 500;
+}
+
+.seta {
+    width: 50px;
+}
+
+.seta:hover {
+    opacity: 0.75;
+}
+
+.seta:active {
+    transform: scale(0.95);
+}
+
+.esquerda {
+    rotate: 180deg;
+}
