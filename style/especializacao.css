@@ -58,7 +58,7 @@ i {
     line-height: 36px;
     font-size: 2em;
     font-weight: 700;
-    margin: 1em 0;
+    margin: 1em 0; 
 }
 
 .bold {
@@ -145,6 +145,10 @@ i {
     align-items: center;
     justify-content: space-evenly;
     padding: 5em 0;
+}
+
+.artigo-emprego ul {
+    list-style: disc;
 }
 
 .artigo-emprego:nth-child(even) {
