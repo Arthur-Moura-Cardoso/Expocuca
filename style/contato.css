@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,100;0,200;0,300;0,500;1,100 & display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border-right: 2px solid #000;
+    padding: 5em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side {
+    width: 75%;
+    border-right: 2px solid #7a0c7ae3;
+}
+
+.left-side_content {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.contatos-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topic-text h2,
+.right-side h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.topic-text h2 span,
+.right-side h2 span {
+    color: #7a0c7ae3;
+}
+
+.topic-text p {
+    color: #474747;
+}
+
+.left-side_img {
+    width: 450px;
+}
+
+.container .right-side {
+    width: 75%;
+    margin-left: 90px;
+}
+
+.details {
+    margin: 14px;
+    text-align: center;
+}
+
+.left-side .details i {
+    font-size: 30px;
+    color: rgba(122, 12, 122, 0.89);
+    margin-bottom: 10px;
+}
+
+.left-side .details .topic {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.right-side .topic-text {
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(122, 12, 122, 0.89);
+}
+
+.input-box {
+    height: 50px;
+    width: 100%;
+    margin: 12px 0;
+}
+
+.right-side .input-box input, 
+.right-side .message-box textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: #F0F1F8;
+    border-radius: 6px;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 0 14px;
+    resize: none;
+}
+
+.right-side .message-box textarea {
+    padding: 24px 14px;
+}
+
+.right-side .message-box{
+    min-height: 100px;
+    height: 110px;
+}
+
+.right-side .button input[type="submit"] {
+    color: #fff;
+    font-size: 18px;
+    background-color: #7a0c7ae3;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+}
+
+.button input[type="submit"]:hover{
+    background: #500650e3;
+}
+
+.button input[type="submit"]:active{
+    transform: scale(0.95);
+}
