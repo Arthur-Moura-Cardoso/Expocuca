@@ -161,9 +161,6 @@
     font-size: 4.5em;
     margin-left: 20px;
 }
-.sobre_nos, .titulo_conheca {
-    border-right: 2px solid #000;
-}
 
 .icons {
     display: flex;
