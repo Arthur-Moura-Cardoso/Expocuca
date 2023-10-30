@@ -1,3 +1,7 @@
+main {
+    border-right: 2px solid black;
+}
+
 i {
     font-style: italic;
 }
@@ -27,7 +31,7 @@ i {
 }
 
 .box-perfil {
-    width: 80%;
+    width: 700px;
 }
 
 .box-gray {
@@ -52,9 +56,9 @@ i {
 .artigo-emprego_text h2 {
     color: #1760b3;
     line-height: 36px;
-    font-size: 1.75em;
+    font-size: 2em;
     font-weight: 700;
-    margin: 1em 0; 
+    margin: 1em 0;
 }
 
 .bold {
@@ -132,10 +136,6 @@ i {
     animation: barrinha 0.4s ease-in both;
 }
 
-.secao-areas_button:active {
-    transform: scale(0.95) !important;
-}
-
 .secao-empregos {
     padding-bottom: 5em;
 }
@@ -145,11 +145,9 @@ i {
     align-items: center;
     justify-content: space-evenly;
     padding: 5em 0;
-    flex-direction: row;
 }
 
-
-.ancora:nth-child(even) .artigo-emprego{
+.artigo-emprego:nth-child(even) {
     flex-direction: row-reverse;
 }
 
@@ -206,35 +204,4 @@ i {
 
 .esquerda {
     rotate: 180deg;
-}
-
-.transparente {
-    opacity: 0;
-}
-
-@media screen and (max-width: 1024px) {
-
-    .titulo-secao {
-        font-size: 2em;
-    }
-
-    .secao-perfil {
-        flex-direction: column;
-        align-items: center;
-        gap: 32px;
-    }
-
-    .secao-areas_grid {
-        gap: 16px 1.2em;
-    }
-
-    .artigo-emprego,
-    .ancora:nth-child(even) .artigo-empregoo {
-        flex-direction: column;
-    }
-
-    .artigo-emprego_text {
-        width: 70%;
-    }
-
 }
