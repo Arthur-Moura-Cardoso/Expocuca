@@ -1,7 +1,3 @@
-main {
-    border-right: 2px solid black;
-}
-
 i {
     font-style: italic;
 }
@@ -19,7 +15,7 @@ i {
     text-align: center;
     font-size: 2.5em;
     font-weight: 700;
-    padding: 3em 0 1em 0;
+    margin: 3em 0 1em 0;
     color: #050555;
 }
 
@@ -31,7 +27,7 @@ i {
 }
 
 .box-perfil {
-    width: 700px;
+    width: 80%;
 }
 
 .box-gray {
@@ -50,15 +46,21 @@ i {
 .text p {
     line-height: 24px;
     color: #050555;
+    font-weight: 500;
+    font-size: 1.025em;
+}
+
+.text p {
+    text-align: justify;
 }
 
 .text-box_perfil h3,
 .artigo-emprego_text h2 {
     color: #1760b3;
     line-height: 36px;
-    font-size: 2em;
+    font-size: 1.625em;
     font-weight: 700;
-    margin: 1em 0;
+    margin: 1em 0; 
 }
 
 .bold {
@@ -81,9 +83,10 @@ i {
 .text-areas {
     width: 80%;
     margin: auto;
-    font-size: 1.25em;
+    font-size: 1.15em;
+    font-weight: 500;
     line-height: 28px;
-    padding: 3em 0 0 ;
+    margin: 3em auto 0 ;
 }
 
 .secao-areas_grid {
@@ -91,7 +94,7 @@ i {
     grid-template-columns: max-content max-content;
     justify-content: center;
     gap: 16px 6em;
-    padding: 5em 0 6em 0;
+    margin: 5em 0 6em 0;
 }
 
 .secao-areas_button {
@@ -111,7 +114,7 @@ i {
 }
 
 .secao-areas_button:active {
-    transform: scale(0.95);
+    background: #809292;
 }
 
 .text-button_areas {
@@ -126,7 +129,7 @@ i {
     display: block;
     position: absolute;
     margin-top: 2px;
-    height: 3px;
+    height: 3px;    
     background-color: #050555;
     width: 0;
     animation: barrinhaReverse 0.4s ease-in both;
@@ -144,10 +147,11 @@ i {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 5em 0;
+    margin: 5em 0;
+    flex-direction: row;
 }
 
-.artigo-emprego:nth-child(even) {
+.ancora:nth-child(even) .artigo-emprego{
     flex-direction: row-reverse;
 }
 
@@ -157,7 +161,7 @@ i {
 
 .artigo-emprego_text h2{
     text-align: center;
-    font-size: 2.25em;
+    font-size: 1.75em;
     font-weight: 600;
     display: flex;
     align-items: center;
@@ -168,7 +172,17 @@ i {
 .artigo-emprego p {
     line-height: 28px;
     color: #050555;
-    font-size: 1.25em;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 16px;
+    text-align: justify;
+}
+
+.artigo-emprego p > a {
+    font-size: 1em;
+    display: block;
+    text-align: center;
+    font-weight: 500;
 }
 
 .img-container {
@@ -180,14 +194,44 @@ i {
 }
 
 .img-container img {
-    width: 450px;
+    width: 600px;
     height: fit-content;
 }
 
-.img-container a {
-    font-size: 1.1em;
+.linguagens {
+    text-align: center;
+}
+
+.linguagens h4 {
+    font-size: 1.3em;
     color: #050555;
-    font-weight: 500;
+    font-weight: 600 ;
+}
+
+.linguagens_icones {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.linguagens_icones img {
+    width: 50px;
+    filter: grayscale(100%) drop-shadow(3px 3px 5px #000);
+    transition: all 0.2s ease-in;
+    
+}
+
+.linguagens_icones img:hover {
+    scale: 1.1;
+    filter: grayscale(0) drop-shadow(4px 4px 2px #000);
+}
+
+.linguagens span {
+    display: block;
+    color: #050555;
+    font-size: 0.9em;
+    font-weight: 600;
 }
 
 .seta {
@@ -204,4 +248,48 @@ i {
 
 .esquerda {
     rotate: 180deg;
+}
+
+.transparente,
+.transparente:hover {
+    opacity: 0;
+    cursor: auto;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .titulo-secao {
+        font-size: 2em;
+    }
+
+    .secao-perfil {
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .secao-areas_grid {
+        gap: 16px 1.2em;
+    }
+
+    .artigo-emprego,
+    .ancora:nth-child(even) .artigo-emprego {
+        flex-direction: column;
+    }
+
+    .artigo-emprego_text {
+        width: 70%;
+    }
+
+    .secao-areas_button {
+        flex-direction: column;
+    }
+
+    .img-container img {
+        width: 450px;
+    }
+
+    .linguagens_icones img {
+        width: 50px;
+    }
 }

@@ -81,11 +81,25 @@ html, body {
     top: 2px;
 }
 
-.botao {
-    padding-top: 1rem;
-    width: 200px;
-    height: fit-content;
-    padding-bottom: 5rem;
+.botao_link {
+    background: #1457A1;
+    padding: 1em 1.5em;
+    font-size: 1.25em;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 8px 0 16px;
+    text-transform: uppercase;
+}
+
+.botao_link:hover {
+    background: #0f447c;
+}
+
+.botao_link:active {
+    scale: 0.95;
+    background: #0b345f;
 }
 
 .faca_parte {

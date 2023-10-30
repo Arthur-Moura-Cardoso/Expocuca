@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
 @import url(header.css);
 @import url(footer.css);
 
@@ -31,20 +31,4 @@ body {
     direction: ltr;
     -webkit-font-feature-settings: 'liga';
     -webkit-font-smoothing: antialiased;
-}
-
-::-webkit-scrollbar {
-    display: block;
-    width: 15px;
-    background: black;
-}
-
-::-webkit-scrollbar-button {
-    background: black;
-    display: none;
-}
-
-::-webkit-scrollbar-thumb {
-    display: block;
-    background: white;
 }

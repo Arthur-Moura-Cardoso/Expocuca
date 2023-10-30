@@ -74,29 +74,38 @@
     padding: 1em;
 }
 
+.serie-content {
+    margin: auto;
+}
 
 .serie h2 {
     font-weight: 600;
-    margin: 0px 0 16px 7.5vw;
+    margin-bottom: 1.5em;
     font-size: 1em;
     color: white;
 }
 
-.flexbox {
+.flex_serie {
     display: flex; 
     align-items: center; 
-    justify-content: center;
     gap: 24px;
+}
+
+.flex_serie a {
+    display: flex;
+    align-items: center; 
+    height: 400px;
 }
 
 .serie_img-text {
     position: relative;
+    width: 100%;
 }
 
 .serie_grow {
     position: absolute;
     background: rgba(1, 1, 1, 0.5);
-    height: calc(100% - 6px);
+    height: 100%;
     width: 100%;
     border-radius: 10px;
     overflow: hidden;
@@ -114,13 +123,13 @@
     }
 
     to {
-        height: calc(100% - 6px);
+        height: 100%;
     }
 }
 
 @keyframes growReverse {
     from {
-        height: calc(100% - 6px);
+        height: 100%;
         
     }
 
@@ -137,14 +146,14 @@
     top: 50%;
     left: 50%;
     margin: -25px 0 0 -50px;
-    
 }
 
 .serie_img-text img {
-    padding: 3px;
-    width: 400px;
+    width: 100%;
     border-radius: 10px;
+    max-height: 400px;
 }
+
 
 .titulo_conheca {
     text-align: center;
@@ -161,9 +170,6 @@
     padding: 0.5em 0 1em;
     font-size: 4.5em;
     margin-left: 20px;
-}
-.sobre_nos, .titulo_conheca {
-    border-right: 2px solid #000;
 }
 
 .icons {
