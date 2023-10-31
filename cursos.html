@@ -28,50 +28,144 @@
                     <a href="contato.html" class="link_nav"> Contato <span class="barra"></span></a>
                 </div>
             </nav>
-        </header>
+        </header> 
         <main>
-            <section class="carga">
-                <div class="nav">
-                    <p> Carga Horária </p>
-                    <p> 1200hrs </p>
-                </div>
-                <div class="nav">
-                    <p> Duração/Semestre </p>
-                    <p> Semestre </p>
-                </div>
-                <div class="nav">
-                    <p> Tipo de Curso </p>
-                    <p> Articulação dos Ensinos Médio - Técnico </p>
-                </div>
-                <div class="nav">
-                    <p> Eixo tecnológico </p>
-                    <p> Informação e Comunicação </p>
+            <section>
+                <div class="texto">
+                    <h1> Desinvolvimento de Sitemas  <img src="assets/codigo-fonte.png" alt="code"></h1>
+                    <p> O Técnico em <span class="bold">Desinvolvimento de Sistemas</span> é o profissional que analisa e projeta sistemas. Constrói, documenta realiza testes e mantém sistemas de Informação. Utiliza ambientes de desinvolvimento e linguagens de progamação específica. Modela, implementa e mantém banco de dados.</p>
                 </div>
             </section>
+            <section class="carga">
+                <div class="nav">
+                    <img src="assets/relogio.png" alt="relógio" id="relogio">
+                    <p class="sub_title"> Carga Horária </p>
+                    <p class="info"> 1200hrs </p>
+                </div>
+                <div class="nav">
+                    <img src="assets/calendario.png" alt="calendario" id="calendario">
+                    <p class="sub_title"> Duração/Semestre </p>
+                    <p class="info"> 2 Semestres </p>
+                </div>
+                <div class="nav" >
+                    <img src="assets/computador-portatil.png" alt="tela" class="tela">
+                    <p class="sub_title" > Tipo de Curso </p>
+                    <p class="info"> Articulação dos Ensinos </p>
+                    <p class="info"> Médio - Técnico </p>
+                    <button onclick="abrir()" class="button_nav">Veja +</button>
+                    <div class="infoBotao">
+                        <img src="assets/computador-portatil.png" alt="tela" class="tela">
+                        <p class="sub_title" > Tipo de Curso </p>
+                        <p class="tipo_curso">Articulador dos Ensinos Médio - e Superior (AMS)</p>
+                        <p class="tipo_curso">Cursos Técnicos - Modalidade Online</p>
+                        <p class="tipo_curso">Cursos Técnicos - Modalidade Presencial</p>
+                        <p class="tipo_curso">Ensino Médio Integrado ao Técnico (M-Tec)</p>
+                        <p class="tipo_curso">Ensino Médio Integrado ao Técnico em Periodo Integram(M-Tec-PI)</p>
+                        <p class="tipo_curso">Ensino Médio Integrado ao Técnico no Periodo Noturno(M-Tec-PI)</p>
+                        <button onclick="abrir()" class="button_nav">MINIMIZAR</button>
+                    </div>
+                </div>
+
+
+                <div class="nav" id="tr">
+                    <img src="assets/radial.png" alt="radial" id="radial">
+                    <p class="sub_title"> Eixo tecnológico </p>
+                    <p class="info"> Informação e Comunicação </p>
+                </div>
+            </section>
+            <hr class="linha">
+                <section class="modulos">
+                    <div class="container_01">
+                        <div class="curso_title">
+                            <h1 id="matriz"> Matriz curricular  <img src="assets/evento-de-formatura.png" alt="formatura" ></h1>
+                            
+                        </div>
+                         <div class="container_list">
+                             <div class="container_ul">
+                                <h2  class="modulo"> Módulo I </h2>
+                                 <ul class="md">
+                                    <li> <p>Progamação e Algoritmos</p> </li>
+                                    <li> <p>Bancos Dados I</p> </li>
+                                    <li> <p>Análise e Projeto de Sitemas</p> </li>
+                                    <li> <p>Desing Digital</p> </li>
+                                    <li> <p>Progamação Web I</p> </li>
+                                    <li> <p>Fundamentos da Informática</p> </li>
+                                    <li> <p>Técnicas de Progamação</p>
+                                    </li>
+                                 </ul>
+                             </div>
+                             <div class="container_ul">
+                                <h2 class="modulo"> Módulo II </h2>
+                                 <ul class="md">
+                             
+                                    <li> <p>Inglês Instrumental </p> </li>
+                                    <li> <p>Desenvolvimento de Sistemas</p> </li>
+                                    <li> <p>Banco de Dados II</p> </li>
+                                    <li> <p>Internet e Protocolos</p> </li>
+                                    <li> <p>Progamação Mobile I </p> </li>
+                                    <li> <p>Progamação Web II</p> </li>
+                                    <li> <p>Planejamento do TCC</p></p> </li>
+                                 </ul>
+                             </div>
+                             <div class="container_ul" id="tr">
+                                <h2 class="modulo"> Módulo III </h2>
+                                 <ul class="md">
+                             
+                                    <li> <p>Segurança de Sistemas de Informação</p>  </li>
+                                    <li> <p>Bancos de Dados II</p> </li>
+                                    <li> <p>Sistemas Embarcados</p> </li>
+                                    <li> <p>Progamação Mobile II</p> </li>
+                                    <li> <p>Progamação Web III</p> </li>
+                                    <li><p> Qualidade e Teste de Software</p> </li>
+                                    <li> <p>Desinvolvimento do TCC</p>
+                                    </li>
+                                 </ul>
+                             </div>
+                         </div>
+                    </div>
+                     
+                </section>
+                <hr class="linha">
+                <section>
+                    <div class="certificacao_title">
+                        <h1> Certificações <img src="assets/graduacao.png" alt="diplonado"> </h1>
+                    </div>
+
+                    <div class="certificados">
+                        <p> <span class="font_weight">Conclusão do Módulo I:</span> Qualificação Técnica de Nível Médio de Auxiliar em Desinvolvimento de Sistemas. </p>
+                        <p> <span class="font_weight">Conclusão dos Módulos I e II:</span> Qualificação Técnica de Nível Médio de Progamador de Computadores.  </p>
+                        <p> <span class="font_weight">Conclusão dos Módulos I, II e III:</span> Diploma de Técnico em Desinvolvimento de Sistemas.</p>
+                    </div>
+
+                </section>
+                
+            </div>
+    
+           
         </main>
-        <footer>
+          <footer>
             <div id="footer_logo">
                 <h1>ByteTech</h1>
                 <p> It's all about you dreams </p>
-    
+
                 <div id="footer_rede-social">
                     <a
                         href="https://www.instagram.com/eteccamargoaranha/?hl=pt-br">
                         <img class="icons_footer" src="assets/instagram.png" 
                             alt="Icone do instagram">
                     </a>
-    
+
                     <a href="http://eteccamargoaranha.com.br">
                         <img class="icons_footer" src="assets/rede.png"
                             alt="Icone do website">
                     </a>
-    
+
                     <a
                         href="https://www.youtube.com/user/centropaulasouzasp">
                         <img class="icons_footer" src="assets/youtube.png"
                             alt="Icone do Youtube">
                     </a>
-    
+
                     <a
                         href="https://github.com/Arthur-Moura-Cardoso/Expocuca">
                         <img class="icons_footer github" src="assets/github.png"
@@ -79,7 +173,7 @@
                     </a>
                 </div>
             </div>
-    
+
             <div class="sec_contact">
                 <ul class="info">
                     <li>
@@ -88,7 +182,7 @@
                         </span>
                         <p> <a href="tel:112694-6733"> (11) 2694-6733 </a></p>
                     </li>
-    
+
                     <li>
                         <span> <img class="icons_footer-2"
                                 src="assets/localizacao.png" alt> </span>
@@ -97,7 +191,7 @@
                             </span>
                         </a>
                     </li>
-    
+
                     <li>
                         <span> <img class="icons_footer-2"
                                 src="assets/marketing-de-email.png" alt>
@@ -109,17 +203,17 @@
                     </li>
                 </ul>
             </div>
-    
+
             <div class="content_qrcode">
-                <img class="qrcode" src="assets/qrCode_mapa-etec.png"
+                <img class="qrcode" src="assets/qrcodeMapa.png"
                     alt
                     srcset>
                 <p> Abrir no Maps </p>
-    
+
             </div>
-    
+
             <div class="sec qiclinks">
-                <h2 class="dev"> Developers <span class="barra-footer"></span>
+                <h2 class="dev"> Developers <span class="barra-secao_areas-footer"></span>
                 </h2>
                 <ul>
                     <li> <a href="https://www.instagram.com/Arthurmoura_LKS">
@@ -138,6 +232,7 @@
 
         </div>
     </body>
+    <script src="js/animacao.js"></script>
     <script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>

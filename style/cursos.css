@@ -1,8 +1,218 @@
-.nav {
-    width: 800px;
-    background-color: gray;
+main {
+    margin-top: 15vh;
+}
+.texto {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.texto h1 {
+    color: #050555;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
 
+.texto p {
+    font-size: 1.50em;
+    text-align: justify;
+    padding: 0px 50px;
+}
+.texto img {
+    width: 58px;
+}
+
+.bold {
+    font-weight: 800;
+    color: #050555;
+}
 .carga {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+.nav {
+    width: 300px;
+    height: 150px;
+    background-color: rgb(248, 245, 245);
+    margin-top: 50px;
+    text-align: center;
+    
+    padding-top: 30px;
+    border-right:  1px solid rgba(160, 157, 157, 0.63);
+    font-size: 17px;    
+}
+
+.infoBotao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    height: 0px;
+    overflow: hidden;
+    opacity: 0;
+    filter: blur(5px);
+    font-size: 1.1em;
+    padding: 10px 12px;
+    position: relative;
+    top: 5vh;
+    z-index: 10;
+    background-color: rgb(248, 245, 245);
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+}
+
+.ativo {
+    opacity: 1;
+    filter: blur(0px);
+    height: 60vh;
+
+}
+
+.button_nav {
+    background: #050555;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.tipo_curso {
+    border-bottom: 2px solid black;
+    padding-bottom: 8px;
+}
+
+
+.sub_title {
+    color: #050555;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.info {
+    margin-bottom: 6px;
+}
+
+.info {
+    color: rgb(0, 0, 0);
+}
+
+#relogio {
+    width: 26px;
+}
+#calendario {
+    width: 27px;
+}
+#tela {
+    width: 28px;
+    
+    
+}
+#radial {
+    width: 35px;
+}
+
+#tr {
+    border: transparent;
+}
+
+.modulos {
+    margin-bottom: 77px;
+}
+
+.container_01 {
+    text-align: center;
+    margin-top: 75px;
+ }
+ 
+ .container_list {
+    display: flex;
+    justify-content: center;
+ }
+
+ .container_ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    padding: 30px 50px;
+    border-right: 0.1rem solid rgba(0, 0, 0, 0.815);
+}
+
+.md li:nth-child(odd) {
+    background-color: #D2E9E9;
+}
+.md  li {
+    padding: 0.5em 1.5em;
+    font-weight: 600;
+}
+
+#matriz {
+    padding-bottom: 61px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #050555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+
+.modulo {
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 30px;
+    color: #050555;
+}
+
+.curso_title, 
+.certificacao_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.curso_title  img {
+    width: 50px;
+}
+
+.certificacao_title {
+    padding-bottom: 61px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #050555;
+    margin: 75px auto 0px;
+    
+}
+
+.certificacao_title h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.certificados {
+    margin-bottom: 50px;
+    
+}
+
+.certificados p {
+    padding: 17px 50px;
+    font-size: 1.30em;
+    color: #000000;
+    margin: 0 auto
+}
+
+.font_weight {
+    font-weight: 700;
+    color: #1760B3;
 }

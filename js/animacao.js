@@ -1,6 +1,7 @@
 const linhas = document.querySelectorAll("hr")
 const icone = document.querySelectorAll(".icons")
 const titulos = document.querySelectorAll(".titulo-text")
+const info = document.querySelector(".infoBotao")
 
 const myObserver = new IntersectionObserver ((event) => {
     event.forEach((entry) => {
@@ -37,3 +38,7 @@ icone.forEach(icon => {
 titulos.forEach(titulo => {
     myObserver.observe(titulo)
 })
+
+function abrir() {
+    info.classList.toggle("ativo")
+}
