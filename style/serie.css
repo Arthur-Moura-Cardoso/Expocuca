@@ -1,0 +1,143 @@
+body {
+    overflow: hidden;
+}
+
+
+i {
+    font-style: italic;
+}
+
+.titulo-secao {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 2em auto 1em auto;
+    color: #050555;
+}
+
+.secao-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 3em 2em 3em;
+    gap: 16px;
+}
+
+.secao-perfil:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.box-perfil {
+    width: 80%;
+}
+
+.box-gray {
+    background: #2496b350;
+    padding: 1.5em;
+    border-radius: 4px;
+    gap: 36px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flexbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.text,
+.text p {
+    line-height: 24px;
+    color: #050555;
+    font-weight: 500;
+    font-size: 1.025em;
+}
+
+.text p {
+    text-align: justify;
+}
+
+.text-box_perfil h3,
+.artigo-emprego_text h2 {
+    color: #1760b3;
+    line-height: 36px;
+    font-size: 1.600em;
+    font-weight: 700;
+    margin: 1em 0;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.perfil-img {
+    width: 40%;
+    display: block;
+    margin: auto;
+    margin-top: 24px;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.text-center p {
+    width: 90%;
+    margin: auto;
+}
+
+.text-areas {
+    width: 80%;
+    margin: auto;
+    font-size: 1.15em;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 3em auto 0;
+}
+
+.linha {
+    width: 0;
+    height: 2px;
+    background: #050555;
+    border: none;
+    margin: 2em auto 1em;
+    transition: width 0.4s ease-in-out;
+}
+
+.button {
+    background-color: #050555;
+    border-radius: 6px;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+
+.wrap {
+    margin-top: 18px;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.button:active {
+    transform: scale(0.95);
+    background-color: #3b3b79;
+}
+
+.centerer {
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 5em;
+}

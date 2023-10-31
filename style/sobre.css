@@ -1,70 +1,52 @@
-html, body {
-    font-family: 'Poppins', sans-serif;
-}
-
 .titulo {
     text-align: right;
     font-size: 3rem;
     color: #000066;
     font-weight: bold;
     text-align: center;
-    padding-top: 3rem;
-    padding-left: 20rem;
-    position: relative;
-    top: 60px;
+}
+
+.titulo-secao {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 2em auto 1em 0;
+    color: #050555;
 }
 
 .texto {
-    padding-right: 3rem;
-    font-size: 1.2rem;
-    padding-left: 3.5rem;
-    line-height: 1.6rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #050555;
+    width: 40%;
+    text-align: justify;
+    letter-spacing: 1px;
 }
 
-.logo img {
-    height: 300px;
-    padding-left: 3rem;
-    padding-bottom: 2rem;
-}
-
-.logo {
+.sobre {
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    margin-bottom: 5em;
 }
 
-.titulo2 {
-
-    font-size: 3rem;
-    font-weight: bold;
-    color: #000066;
-    text-align: center;
-    padding-top: 1rem;
-    padding-left: 28rem;
-    position: relative;
-    top: 40px;
-}
-
-.texto2 {
-    padding-right: 4.5rem;
-    font-size: 1.2rem;
-    padding-left: 3.5rem;
-    padding-top: 1rem;
-    line-height: 1.6rem;
+.sobre img {
+    height: 300px;
 }
 
 .programar_img {
     height: 350px;
-    padding-left: 1rem;
-    padding-top: 0rem;
 }
 
 .programar {
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-.texto2 span {
-    font-weight: bold
+.texto span {
+    font-weight: 700;
 }
 
 .fotos {
@@ -77,8 +59,6 @@ html, body {
 .vetor {
     width: 150px;
     height: fit-content;
-    position: relative;
-    top: 2px;
 }
 
 .botao_link {

@@ -32,3 +32,46 @@ body {
     -webkit-font-feature-settings: 'liga';
     -webkit-font-smoothing: antialiased;
 }
+
+.linha {
+    width: 0;
+    height: 2px;
+    background: #050555;
+    border: none;
+    margin: 2em auto 1em;
+    transition: width 0.4s ease-in-out;
+}
+
+.titulo-secao h2 {
+    display: inline-block;
+    width: 1px;
+    max-width: fit-content;
+    border-right: 2px solid black;
+    text-wrap: nowrap;
+    padding-right: 8px;
+    overflow: hidden;
+}
+
+.escrita {
+    animation: escrevendo 5s forwards steps(150), cursorPiscando 0.65s infinite normal;
+}
+
+@keyframes escrevendo {
+    from {
+        width: 1px;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes cursorPiscando {
+    from {
+        border-right-color: black;
+    }
+    
+    to {
+        border-right-color: transparent;
+    }
+}

@@ -2,15 +2,6 @@ i {
     font-style: italic;
 }
 
-.linha {
-    width: 0;
-    height: 2px;
-    background: #050555;
-    border: none;
-    margin: 2em auto 1em;
-    transition: width 0.4s ease-in-out;
-}
-
 .titulo-secao {
     text-align: center;
     font-size: 2.5em;
@@ -194,7 +185,7 @@ i {
 }
 
 .img-container img {
-    width: 600px;
+    width: 500px;
     height: fit-content;
 }
 
@@ -286,7 +277,7 @@ i {
     }
 
     .img-container img {
-        width: 450px;
+        width: 400px;
     }
 
     .linguagens_icones img {
